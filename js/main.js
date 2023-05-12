@@ -69,3 +69,68 @@
 
 //     result.innerHTML = lastItem(m);
 // }
+
+// ? Task #5
+// ? Owofied a Sentence
+
+// function owofied(sentence) {
+//     // let res = sentence.replaceAll("i", "wi").replaceAll("e", "we");
+//     let res = sentence.replaceAll(/[i]/gi, "wi").replaceAll(/[e]/gi, "we");
+//     return `${res} owo`;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp = document.querySelector(".inp");
+//     let result = document.querySelector(".result");
+
+//     let m = inp.value.trim();
+
+//     result.innerHTML = owofied(m);
+// }
+
+// ? Task #6
+
+// function countCharacters(arr) {
+//     return arr.join('').length;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp = document.querySelector(".inp");
+//     let result = document.querySelector(".result");
+
+//     let m = inp.value.trim().split(" ");
+
+//     result.innerHTML = countCharacters(m);
+// }
+
+
+// ? Task #7
+// ? Profit Margin
+// ! To be honest the code works but i don't know how it works ! Just check it !
+
+// function profitMargin(costPrice, salesPrice) {
+//     let res;
+//     if (costPrice > salesPrice) {
+//         res = -((costPrice - salesPrice) / salesPrice) * 100;
+//     }
+//     else {
+//         res = Math.abs(((costPrice - salesPrice) / salesPrice) * 100);
+//     }
+//     let dec = res.toFixed(1)
+//     return `${dec}%`
+// }
+
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let costInp = document.querySelector(".cost-inp");
+//     let salesInp = document.querySelector(".sales-inp");
+//     let myResult = document.querySelector(".result");
+
+//     myResult.innerHTML = profitMargin(costInp.value, salesInp.value);
+// }
