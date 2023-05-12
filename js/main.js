@@ -134,3 +134,36 @@
 
 //     myResult.innerHTML = profitMargin(costInp.value, salesInp.value);
 // }
+
+// ? Task #8
+// ? Formatting Text on Edabit
+
+// function mdFormat(word, style) {
+//     switch (style) {
+//         case 'b':
+//             return `**${word}**`;
+//             break;
+//         case 'i':
+//             return `_${word}_`;
+//             break;
+//         case 'c':
+//             return "`" + `${word}` + "`";
+//             break;
+//         case 's':
+//             return `~~${word}~~`;
+//             break;
+//         default:
+//             return `undefined`;
+//             break;
+//     }
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let txtInp = document.querySelector(".txt-inp");
+//     let characterInp = document.querySelector(".character-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = mdFormat(txtInp.value, characterInp.value);
+// }
