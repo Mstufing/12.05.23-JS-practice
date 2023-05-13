@@ -309,3 +309,77 @@
 
 //     res.innerHTML = hammingDistance(firstInput.value, secondInp.value);
 // }
+
+// ? Task #16
+// ? Remove the First and Last Characters
+
+// function removeFirstLast(str) {
+//     if (str.length <= 2)
+//         return str;
+//     else
+//         return str.slice(1, str.length - 1)
+// }
+
+// let myButton = document.querySelector(".btn");
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector(".first-inp");
+//     let myRes = document.querySelector(".result");
+
+//     myRes.innerHTML = removeFirstLast(inp1.value);
+// }
+
+// ? Task #17
+// ? Retrieve the Subreddit
+// ! Try to get how function works !!!
+
+// function subReddit(link) {
+//     let arr = [];
+//     arr = link.split("/");
+//     return arr[arr.length - 2]
+// }
+
+// let myButton = document.querySelector(".btn");
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector(".first-inp");
+//     let myRes = document.querySelector(".result");
+
+//     myRes.innerHTML = subReddit(inp1.value);
+// }
+
+
+// ? Task #18
+// ? Broken Bridge
+
+// function isSafeBridge(str) {
+//     if (str.match(" "))
+//         return false;
+//     return true;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp = document.querySelector(".inp");
+//     let res = document.querySelector(".res");
+
+//     res.innerHTML = isSafeBridge(inp.value);
+// }
+
+// ? Task #19
+// ? Vowel Replacer
+
+// function replaceVowels(str, ch) {
+//     return str.replace(/[aeiou]/gi, ch);
+// }
+
+// let myButton = document.querySelector(".btn");
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector(".inp1");
+//     let secondInp = document.querySelector(".inp2");
+//     let myRes = document.querySelector(".res");
+
+//     myRes.innerHTML = replaceVowels(firstInp.value, secondInp.value);
+// }
