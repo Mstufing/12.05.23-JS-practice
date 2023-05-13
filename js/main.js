@@ -233,4 +233,79 @@
 //     res.innerHTML = integerBoolean(firstInput.value);
 // }
 
+// ? Task #12
+// ? Fraction Greater Than One
 
+// function greaterThanOne(frac) {
+//     return eval(frac) > 1;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInput = document.querySelector(".first-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = greaterThanOne(firstInput.value);
+// }
+
+// ? Task #13
+// ?Count the Capital Letters
+
+// function capitalLetters(str) {
+//     const regex = /[A-Z]/g;
+//     if (!str.match(regex))
+//         return 0;
+//     else
+//         return str.match(regex).length;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInput = document.querySelector(".first-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = capitalLetters(firstInput.value);
+// }
+
+// ? Task #14
+// ? Count Syllables
+
+// function numberSyllables(word) {
+//     return word.split("-").length;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInput = document.querySelector(".first-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = numberSyllables(firstInput.value);
+// }
+
+// ? Task #15
+// ? Hamming Distance
+
+// function hammingDistance(str1, str2) {
+//     let cnt = 0;
+//     if (str1.length === str2.length) {
+//         for (let i = 0; i <= str1.length; i++) {
+//             if (str1[i] !== str2[i])
+//                 cnt++;
+//         }
+//         return cnt;
+//     }
+//     return "unequal word lengths";
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInput = document.querySelector(".first-inp");
+//     let secondInp = document.querySelector(".second-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = hammingDistance(firstInput.value, secondInp.value);
+// }
