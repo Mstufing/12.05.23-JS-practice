@@ -167,3 +167,70 @@
 
 //     res.innerHTML = mdFormat(txtInp.value, characterInp.value);
 // }
+
+// ? Task #9
+// ? Get Word Count
+
+// function countWords(str) {
+//     return str.split(" ").length;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let txtInp = document.querySelector(".txt-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = countWords(txtInp.value);
+// }
+
+// ? Task #10
+// ? Stupid Addition
+// TODO Is there another way to solve this task ? Except Else ...If statement!
+// ! How to write string in input field ?
+
+// function stupidAddition(a, b) {
+//     let res;
+//     if (typeof a !== typeof b)
+//         res = null;
+//     else if (typeof a == "string" && typeof b == "string")
+//         res = +a + +b;
+//     else if (typeof a == "number" && typeof b == "number")
+//         res = String(a) + String(b);
+//     return res;
+// }
+
+// let clickBtn = document.querySelector(".btn");
+
+// clickBtn.onclick = () => {
+//     let firstInp = document.querySelector(".first-inp");
+//     let secondInp = document.querySelector(".second-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = stupidAddition(firstInp.value, secondInp.value);
+// }
+
+// console.log(stupidAddition("5", "10"));
+// console.log(stupidAddition(5, 10));
+// console.log(stupidAddition("5", 10));
+
+
+// ? Task #11
+// ? True Ones, False Zeros
+
+// function integerBoolean(n) {
+//     let arr = [];
+//     arr = n.split("").map(elem => elem == 1 ? true : false);
+//     return `[${arr}]`;
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let firstInput = document.querySelector(".first-inp");
+//     let res = document.querySelector(".result");
+
+//     res.innerHTML = integerBoolean(firstInput.value);
+// }
+
+
