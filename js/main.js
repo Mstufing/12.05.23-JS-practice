@@ -383,3 +383,41 @@
 
 //     myRes.innerHTML = replaceVowels(firstInp.value, secondInp.value);
 // }
+
+// ? Task #20
+// ? Word Endings
+
+// function addEnding(arr, ending) {
+//     let myArr = [];
+//     myArr = arr.map(elem => elem + ending)
+//     return `[${myArr}]`;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let firstInp = document.querySelector(".inp1");
+//     let secondInp = document.querySelector(".inp2");
+//     let myResult = document.querySelector(".res");
+//     let myArr = firstInp.value.trim().split(" ");
+//     myResult.innerHTML = addEnding(myArr, secondInp.value);
+// }
+
+// ? Task #21
+// ? Return the Four Letter Strings
+
+// function isFourLetters(arr) {
+//     let myArr = [];
+//     myArr = arr.filter(elem => elem.length === 4)
+//     return `[${myArr}]`;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let firstInp = document.querySelector(".inp1");
+//     let myResult = document.querySelector(".res");
+//     let myArr = firstInp.value.trim().split(" ");
+//     myResult.innerHTML = isFourLetters(myArr);
+// }
+
